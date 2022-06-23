@@ -1,0 +1,39 @@
+.title{
+    padding:100;
+    margin: 10;
+    color: teal;
+    border-bottom: 2px solid grey;
+    text-align: center;
+}
+.item{
+    padding:10px;
+    margin: 10px;
+    color:white;
+    background-color:teal;
+    border:2px solid grey;
+    border-radius: 5px;;
+    width:300px;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    flex-direction:column ;
+    align-items: center;
+}
+button {
+    width:100px;
+    background:white;
+    border-radius:100px;
+    border:0;
+    padding:10;
+    outline:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:tomato;
+    color:white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
